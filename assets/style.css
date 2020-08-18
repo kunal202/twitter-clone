@@ -1,0 +1,106 @@
+.curved {
+  border-radius: 30px;
+}
+
+.card-body {
+  border-top: 1px solid black;
+}
+
+.padded {
+  margin: 15px;
+}
+
+.card-header {
+  background-color: initial;
+}
+
+.search {
+  padding: 10px;
+  margin: 10px;
+}
+
+.sd {
+  margin: 20px;
+  padding: 10px;
+}
+
+.bttext {
+  padding-left: 10px;
+}
+
+.left {
+  border-right: 0.1pt solid gray;
+}
+
+.arrow {
+  margin: 10px;
+}
+
+.count {
+  padding-left: 40px;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  background-color: white ;
+  
+}
+
+.cover-photo-wrapper{
+    height: 200px;
+    overflow: hidden;
+    background-color: #cccccc;
+}
+
+.cover-photo-wrapper img{
+    width: 100%;
+}
+
+#profile-photo-wrapper{
+    background-color: #ffffff;
+    border-bottom: 2px solid #cccccc;
+    height: 60px;
+    position: relative;
+}
+
+#profile-photo{
+    width: 130px;
+    height: 130px;
+    border-radius: 100px;
+    border: 2px solid #ffffff;
+    position: absolute;
+    bottom: 7px;
+    left: -2px;
+}
+
+.edit{
+    margin: 10px;
+    padding-left: 150px;
+ }
+
+ .following{
+     padding-right:25px ;
+ }
+
+ .bio{
+     padding-left: 16px;
+     padding-bottom: 10px;
+ }
+
+ .list{
+     padding-top: 16px
+ }
+
+ .card{
+     background-color: rgb(230, 236, 240);
+ }
+
+.below{
+    border-bottom: 1px solid #cccccc;
+    padding: 7px;
+}
+
+.bgeffect:hover{
+    background-color:   rgba(29, 161, 242, 0.1);
+}
