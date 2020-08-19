@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kunal Chandel(@kunalCh28700667)</title>
+    <title><%=name%></title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/a9c23af791.js" crossorigin="anonymous"></script>
@@ -66,7 +66,7 @@
                     <a href="" class="arrow">
                         <i class="fas fa-arrow-left"></i>
                     </a>
-                    Kunal Chandel
+                    <%=name%>
                     <div>
                         <small class="text-muted count">48 tweets</small>
                     </div>
@@ -88,10 +88,10 @@
                             <div class="row">
                                 <div class="col">
                                     <div>
-                                        Kunal Chandel
+                                        <%=name%>
                                     </div>
                                     <div>
-                                        <small class="text-muted">@KunalCh28700667</small>
+                                        <small class="text-muted"><%=username%></small>
                                     </div>
                                 </div>
                             </div>
@@ -129,7 +129,9 @@
                             <a href="">Tweets</a>
                         </div>
                         <div class="col-6 bgeffect">
-                            <a href=""><center>Tweets & replies</center></a>
+                            <a href="">
+                                <center>Tweets & replies</center>
+                            </a>
                         </div>
                         <div class="col-2 bgeffect">
                             <a href="">Media</a>
@@ -140,7 +142,9 @@
                     </div>
                 </div>
                 <div class="">
-                    <small>Tweet</small>
+                    <small class="text-muted" style="padding-top: 100px;">
+                        <center>No Tweets to Show</center>
+                    </small>
                 </div>
             </div>
             <div class="col-4">

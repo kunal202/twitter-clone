@@ -43,64 +43,64 @@
 .header {
   position: sticky;
   top: 0;
-  background-color: white ;
-  
+  background-color: white;
 }
 
-.cover-photo-wrapper{
-    height: 200px;
-    overflow: hidden;
-    background-color: #cccccc;
+.cover-photo-wrapper {
+  height: 200px;
+  overflow: hidden;
+  background-color: #cccccc;
 }
 
-.cover-photo-wrapper img{
-    width: 100%;
+.cover-photo-wrapper img {
+  width: 100%;
 }
 
-#profile-photo-wrapper{
-    background-color: #ffffff;
-    border-bottom: 2px solid #cccccc;
-    height: 60px;
-    position: relative;
+#profile-photo-wrapper {
+  background-color: #ffffff;
+  border-bottom: 2px solid #cccccc;
+  height: 60px;
+  position: relative;
 }
 
-#profile-photo{
-    width: 130px;
-    height: 130px;
-    border-radius: 100px;
-    border: 2px solid #ffffff;
-    position: absolute;
-    bottom: 7px;
-    left: -2px;
+#profile-photo {
+  width: 130px;
+  height: 130px;
+  border-radius: 100px;
+  border: 2px solid #ffffff;
+  position: absolute;
+  bottom: 7px;
+  left: -2px;
+  background-color: #cccccc;
 }
 
-.edit{
-    margin: 10px;
-    padding-left: 150px;
- }
-
- .following{
-     padding-right:25px ;
- }
-
- .bio{
-     padding-left: 16px;
-     padding-bottom: 10px;
- }
-
- .list{
-     padding-top: 16px
- }
-
- .card{
-     background-color: rgb(230, 236, 240);
- }
-
-.below{
-    border-bottom: 1px solid #cccccc;
-    padding: 7px;
+.edit {
+  margin: 10px;
+  padding-left: 150px;
 }
 
-.bgeffect:hover{
-    background-color:   rgba(29, 161, 242, 0.1);
+.following {
+  padding-right: 25px;
+}
+
+.bio {
+  padding-left: 16px;
+  padding-bottom: 10px;
+}
+
+.list {
+  padding-top: 16px;
+}
+
+.card {
+  background-color: rgb(230, 236, 240);
+}
+
+.below {
+  border-bottom: 1px solid #cccccc;
+  padding: 7px;
+}
+
+.bgeffect:hover {
+  background-color: rgba(29, 161, 242, 0.1);
 }
